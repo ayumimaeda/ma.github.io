@@ -47,7 +47,7 @@ while ($line = fgets($fp)) {
   </form>
   <h2>表示欄</h2>
   <ul>
-    <?php foreach ($bord_array as $data); ?>
+    <?php foreach ($bord_array as $data): ?>
       <?= "<li>" ?>
       <?= $data["name"] . ":" . $data["message"]; ?>
       <?= "</li>" ?>
